@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+#! /usr/bin/env python
+# /usr/bin/python2
+
 """--------------------------------------------------------------------
 This Node/Script creates an instance of a `SimpleActionServer` dedicated to receive, 
 process and execute user commands for the Robotiq 2 finger adaptive grippers.

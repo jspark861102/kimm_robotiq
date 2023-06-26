@@ -1,4 +1,6 @@
 #! /usr/bin/env python
+# /usr/bin/python2
+
 """--------------------------------------------------------------------
 COPYRIGHT 2015 Stanley Innovation Inc.
 
@@ -44,7 +46,7 @@ The end user should not need to use this class direcly since an instance of it i
 controlling a given gripper, and commanded by the user commands puubished by an action client instance.  
 """
 
-from robotiq_2f_gripper import Robotiq2FingerGripper
+from robotiq_2f_gripper_control.robotiq_2f_gripper import Robotiq2FingerGripper
 from robotiq_2f_gripper_msgs.msg import RobotiqGripperCommand, RobotiqGripperStatus, CommandRobotiqGripperGoal
 from sensor_msgs.msg import JointState
 import numpy as np
@@ -93,7 +95,7 @@ class Robotiq2FingerGripperDriver:
         else:
             rospy.loginfo("Connection to gripper with stroke %.3f[m] on port %s successful" % ( self._gripper.stroke, self._comport))
 
-        self._gripper_joint_state_pub = rospy.Publisher("/joint_states" , JointState, queue_size=10)        
+        self._gripper_joint_state_pub = rospy.Publisher("/robotiq/joint_states" , JointState, queue_size=10)        
 
         self._seq = 0
         self._prev_joint_pos = 0.0

@@ -1,4 +1,6 @@
 #! /usr/bin/env python
+# /usr/bin/python2
+
 """--------------------------------------------------------------------
 This Node/Script shows an example on how to use a `SimpleActionClient` instance 
 to control a Robotiq 2 Finger gripper.
