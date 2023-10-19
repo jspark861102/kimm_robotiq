@@ -1,0 +1,278 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'MultiplotPlugin': [2, 1], u'rqt_ez_publisher/EzPublisher': [1]}"
+        }
+      },
+      "groups": {
+        "plugin__MultiplotPlugin__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__MultiplotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Multiplot - [file:///home/jspark/catkin_ws/src/robotiq/robotiq_ft_sensor/config/M_multiplot.xml]'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {},
+              "groups": {
+                "history": {
+                  "keys": {
+                    "max_length": {
+                      "type": "repr",
+                      "repr": "10"
+                    },
+                    "config_2": {
+                      "type": "repr",
+                      "repr": "u'file:///home/jspark/M_multiplot.xml'"
+                    },
+                    "config_1": {
+                      "type": "repr",
+                      "repr": "u'file:///home/jspark/rqt_multiplot.xml'"
+                    },
+                    "config_0": {
+                      "type": "repr",
+                      "repr": "u'file:///home/jspark/catkin_ws/src/robotiq/robotiq_ft_sensor/config/M_multiplot.xml'"
+                    }
+                  },
+                  "groups": {}
+                }
+              }
+            }
+          }
+        },
+        "plugin__MultiplotPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__MultiplotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Multiplot - [file:///home/jspark/catkin_ws/src/robotiq/robotiq_ft_sensor/config/F_multiplot.xml]'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {},
+              "groups": {
+                "history": {
+                  "keys": {
+                    "max_length": {
+                      "type": "repr",
+                      "repr": "10"
+                    },
+                    "config_2": {
+                      "type": "repr",
+                      "repr": "u'file:///home/jspark/rqt_multiplot.xml'"
+                    },
+                    "config_1": {
+                      "type": "repr",
+                      "repr": "u'file:///home/jspark/F_multiplot.xml'"
+                    },
+                    "config_0": {
+                      "type": "repr",
+                      "repr": "u'file:///home/jspark/catkin_ws/src/robotiq/robotiq_ft_sensor/config/F_multiplot.xml'"
+                    }
+                  },
+                  "groups": {}
+                }
+              }
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "u'1'"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[u'0', u'1']"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[u'0', u'1']"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__2": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "u'1'"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[u'0', u'1']"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[u'0', u'1']"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_publisher__Publisher__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "publishers": {
+                  "type": "repr",
+                  "repr": "u\"[{'type_name': 'geometry_msgs/WrenchStamped', 'topic_name': '/robotiq_ft_wrench', 'enabled': False, 'rate': 1.0, 'expressions': {}, 'publisher_id': 1, 'counter': 0}]\""
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_topic__TopicPlugin__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "tree_widget_header_state": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff000000000000000100000000000000000100000000000000000000000000000000000002b7000000050101000100000000000000000500000064ffffffff000000810000000300000005000000ba0000000100000003000000ea00000001000000030000007200000001000000030000003d0000000100000003000000640000000100000003000003e800')",
+                  "pretty-print": "                              d                     r     =     d      "
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_ez_publisher__EzPublisher__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__EzPublisherPluginUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u''"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "texts": {
+                  "type": "repr",
+                  "repr": "[u'/robotiq_ft_sensor_reset/data']"
+                },
+                "publish_interval": {
+                  "type": "repr",
+                  "repr": "100"
+                },
+                "configurable": {
+                  "type": "repr",
+                  "repr": "True"
+                }
+              },
+              "groups": {
+                "robotiq_ft_sensor_reset": {
+                  "keys": {
+                    "data_range": {
+                      "type": "repr",
+                      "repr": "(0, 0)"
+                    },
+                    "data_is_repeat": {
+                      "type": "repr",
+                      "repr": "False"
+                    }
+                  },
+                  "groups": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb0002000000000041000000180000077f0000043700000041000000180000077f0000043700000000000000000780')",
+          "pretty-print": "     A     7 A     7     "
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd00000001000000030000073f0000040afc0100000007fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0031005f005f00440061007400610050006c006f00740057006900640067006500740100000000000003d00000000000000000fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0032005f005f00440061007400610050006c006f007400570069006400670065007401000003d6000003690000000000000000fb00000046004d0075006c007400690070006c006f00740050006c007500670069006e005f005f0031005f005f004d0075006c007400690070006c006f00740057006900640067006500740100000000000003aa0000038b00fffffffc000003b00000038f0000038b00fffffffc0200000002fb00000046004d0075006c007400690070006c006f00740050006c007500670069006e005f005f0032005f005f004d0075006c007400690070006c006f007400570069006400670065007401000000000000038c000000f400fffffffb0000006a007200710074005f0065007a005f007000750062006c00690073006800650072005f005f0045007a005000750062006c00690073006800650072005f005f0031005f005f0045007a005000750062006c006900730068006500720050006c007500670069006e005500690100000392000000780000007500fffffffb0000007c007200710074005f006a006f0069006e0074005f007400720061006a006500630074006f00720079005f0070006c006f0074005f005f004a006f0069006e0074005400720061006a006500630074006f007200790050006c006f0074005f005f0031005f005f006d00610069006e005f00770069006400670065007401000003a30000039c0000000000000000fb00000058007200710074005f007000750062006c00690073006800650072005f005f005000750062006c00690073006800650072005f005f0031005f005f005000750062006c006900730068006500720057006900640067006500740100000722000002650000000000000000fb0000004c007200710074005f0074006f007000690063005f005f0054006f0070006900630050006c007500670069006e005f005f0031005f005f0054006f00700069006300570069006400670065007401000009310000011600000000000000000000073f0000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                 Brqt_plot__Plot__1__DataPlotWidget          Brqt_plot__Plot__2__DataPlotWidget          FMultiplotPlugin__1__MultiplotWidget                                                                                                                             x u                                                                                                                           \" e                                              1       ?                                                      "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}

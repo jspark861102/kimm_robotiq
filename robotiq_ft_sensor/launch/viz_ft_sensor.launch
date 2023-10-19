@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>    
+  <node name="rqt" pkg="rqt_gui" type="rqt_gui" args="--perspective-file $(find robotiq_ft_sensor)/rqt/rq_ft_sensor_perspective.perspective" output="screen"/>
+</launch>
+

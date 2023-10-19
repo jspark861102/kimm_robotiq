@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>  
+  <node name="rq_sensor" pkg="robotiq_ft_sensor" type="rq_sensor" respawn="false" output="screen" />            
+
+  <node name="rq_test_sensor_JSPark" pkg="robotiq_ft_sensor" type="rq_test_sensor_JSPark" respawn="false" output="screen" />            
+</launch>
+
