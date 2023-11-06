@@ -177,7 +177,7 @@ static void wait_for_other_connection()
  */
 static robotiq_ft_sensor::ft_sensor get_data(void)
 {
-        robotiq_ft_sensor::ft_sensor msgStream;
+	robotiq_ft_sensor::ft_sensor msgStream;
 
 	msgStream.Fx = rq_state_get_received_data(0);
 	msgStream.Fy = rq_state_get_received_data(1);
@@ -191,10 +191,13 @@ static robotiq_ft_sensor::ft_sensor get_data(void)
 
 int main(int argc, char **argv)
 {
-        ros::init(argc, argv, "robotiq_ft_sensor");
+	ros::init(argc, argv, "robotiq_ft_sensor");
 	ros::NodeHandle n;
 	ros::param::param<int>("~max_retries", max_retries_, 100);
     ros::param::get("~serial_id", ftdi_id);
+
+	ros::Rate loop_rate(50.0);
+
     if (!ftdi_id.empty())
     {
         ROS_INFO("Trying to connect to a sensor at /dev/%s", ftdi_id.c_str());
@@ -268,6 +271,7 @@ int main(int argc, char **argv)
 		}
 
 		ros::spinOnce();
+		loop_rate.sleep();        
 	}
 	return 0;
 }
