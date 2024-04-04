@@ -2,10 +2,11 @@
 <launch>  
   <arg name="serial_id" default="ttyUSB0"                   doc="Communication port of gripper, use `dmesg | grep tty` command to list ports"/>
 
+  <group ns ="ns1">
   <node name="rq_sensor" pkg="robotiq_ft_sensor" type="rq_sensor" respawn="false" output="screen" >            
           <param name="~serial_id" value="$(arg serial_id)" />
   </node>
-
   <node name="rq_test_sensor_JSPark" pkg="robotiq_ft_sensor" type="rq_test_sensor_JSPark" respawn="false" output="screen" />            
+  </group>
 </launch>
 
